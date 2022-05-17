@@ -8,6 +8,7 @@ import { ReservasComponent } from './reservas/reservas.component';
 import { FormularioreservasComponent } from './formularioreservas/formularioreservas.component';
 import { MenuComponent } from './shared/menu/menu.component';
 import { FooterComponent } from './shared/footer/footer.component';
+import { HabitacionesComponent } from './habitaciones/habitaciones.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FooterComponent } from './shared/footer/footer.component';
     ReservasComponent,
     FormularioreservasComponent,
     MenuComponent,
-    FooterComponent
+    FooterComponent,
+    HabitacionesComponent
   ],
   imports: [
     BrowserModule,
