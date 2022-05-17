@@ -9,7 +9,9 @@ export class HabitacionesComponent implements OnInit {
 
   //Atributos
   titulo:String="Karen"
-
+  habitaciones:any[]=[
+    {}
+  ]
   constructor() { }
 
   ngOnInit(): void {
